@@ -1,5 +1,5 @@
 file=open('testFile.txt',"r")
-lines=file.readlines()
+lines= file.readlines()
 file.close()
 del lines[1]
 

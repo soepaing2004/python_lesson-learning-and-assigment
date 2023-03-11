@@ -19,14 +19,22 @@ try:
     i=int(input("Enter a number:"))
     print(h/i)
 #except Exception as e:
-#    print("You can't divide by zero.")
-except ZeroDivisionError:
+ #   print("Don't enter a character.")
+
+except Exception as e:
     print("You can't divide by zero.")
-except ValueError:
-    print("Don't enter a character.")
-except Exception:
-    print("Invalid.")
+#except ZeroDivisionError:
+#    print("You can't divide by zero.")
+#except Exception:
+#    print("Invalid.")
 else:
     print("End")# your choice
 finally:
     print("Close.")
+
+try:
+    input1=int(input("Enter a number:"))
+    input2=int(input("Enter a number:"))
+    print(input2)
+except ValueError:
+    print("You can't put an error")
