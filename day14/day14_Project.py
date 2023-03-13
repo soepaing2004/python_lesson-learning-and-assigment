@@ -35,7 +35,7 @@ def Calculator():
         elif user_option == "/":
             print(first_number / second_number)
             print("The result will be stored to the file.")
-            division=str (first_number/second_number)
+            division=str(first_number/second_number)
             file.write(str(first_number)+"/"+str(second_number)+"="+division+"\n")
             file.close()
 
