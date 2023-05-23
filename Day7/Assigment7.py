@@ -16,7 +16,6 @@ print(t)
 i=a+t
 print(i)
 
-
 def fun1(num):
     return num+5
 a=fun1(5)
